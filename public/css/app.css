@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+}
+  
+.categories {
+    width: 20%;
+}
+
+.content {
+    width: 60%;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.label-item {
+    width: 20%;
+}
+
+.input-item {
+    width: 80%;
+}
+
+.label-item label {
+    display: block;
+    margin-top: 5px;
+    height: 24px;
+    padding: 2px;
+}
+
+input {
+    display: block;
+    height: 24px;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.gender input {
+    display: initial;
+    vertical-align: middle;
+    width: 2%;
+}

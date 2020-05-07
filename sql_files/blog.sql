@@ -8,6 +8,7 @@ CREATE TABLE `users`(
 	`gender` tinyint(1) DEFAULT 0,
 	`address` text DEFAULT NULL,
 	`avatar` text DEFAULT NULL,
+	`is_delete` tinyint(1) DEFAULT 0,
 	`created_at` datetime NOT NULL,
 	`modified_at` datetime NOT NULL,
 	PRIMARY KEY (`id`)
@@ -19,6 +20,7 @@ CREATE TABLE posts(
 	`type` int(4) DEFAULT NULL,
 	`content` text NOT NULL,
 	`is_publish` tinyint(1) DEFAULT 0,
+	`is_delete` tinyint(1) DEFAULT 0,
 	`created_at` datetime NOT NULL,
 	`modified_at` datetime NOT NULL,
 	PRIMARY KEY (`id`),
