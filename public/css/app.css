@@ -45,3 +45,22 @@ input {
     vertical-align: middle;
     width: 2%;
 }
+
+/* CSS for sreen list user */
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 30px;
+}
