@@ -1,8 +1,10 @@
 CREATE DATABASE blog;
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users`(
 	`id` int( 11 ) NOT NULL AUTO_INCREMENT,
 	`display_name` text DEFAULT NULL,
 	`email` text NOT NULL,
+	`password` text NOT NULL,
 	`birthday` date DEFAULT NULL,
 	`phone_number` text DEFAULT NULL,
 	`gender` tinyint(1) DEFAULT 0,
@@ -13,7 +15,7 @@ CREATE TABLE `users`(
 	`modified_at` datetime DEFAULT NOW(),
 	PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=`utf8`;
-CREATE TABLE posts(
+CREATE TABLE `posts`(
 	`id` int(11) NOT NULL AUTO_INCREMENT,
 	`user_id` int(11) NOT NULL,
 	`title` text NOT NULL,

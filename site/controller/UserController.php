@@ -1,6 +1,6 @@
 <?php
 
-require '../database/ConnectDB.php';
+require '../database/database.php';
 
 /**
  * Insert user.
@@ -23,6 +23,7 @@ function store()
             $gender = $_POST['gender'] == 'male' ? 1 : 0;
             $avatar = !empty($_POST['avatar']) ? $_POST['avatar'] : '';
 
+            $insertSql =
             $insertSql = "INSERT INTO `users`
                         (`display_name`, `email`, `birthday`, `phone_number`, `gender`, `address`, `avatar`) 
                         VALUES ('$fullName', '$email', '$birthday', '$phone', '$gender', '$address', '$avatar')";
@@ -43,11 +44,9 @@ function getUsers()
 {
     try {
         global $conn;
-        $selectStmt = $conn->prepare('SELECT * FROM users');
+        $selectStmt = $conn->prepare('SELECT * FR' . 'OM users');
         $selectStmt->execute();
-        $users = $selectStmt->fetchAll();
-
-        return $users;
+        return $selectStmt->fetchAll();
     } catch (PDOException $e) {
         echo 'Get failed: '.$e->getMessage();
     }

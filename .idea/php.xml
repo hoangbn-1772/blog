@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$USER_HOME$/.config/composer/vendor/bin/phpcbf" standards="Framgia;MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.config/composer/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings />
+    </phpunit_settings>
+  </component>
+</project>

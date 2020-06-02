@@ -64,3 +64,8 @@ th {
 td {
     height: 30px;
 }
+
+button {
+    width: 40%;
+    border-radius: 1px;
+}

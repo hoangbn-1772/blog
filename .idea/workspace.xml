@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7594a9ac-e92f-4dad-ab39-248cb8dff7dd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/database/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/database/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/view/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_files/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_files/blog.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1987" />
+    <option name="y" value="24" />
+    <option name="width" value="1853" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1ckrRNMQvMUmKae8J8ikqxyclow" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7594a9ac-e92f-4dad-ab39-248cb8dff7dd" name="Default" comment="" />
+      <created>1591082207269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591082207269</updated>
+      <workItem from="1591082210026" duration="613000" />
+      <workItem from="1591082850218" duration="527000" />
+      <workItem from="1591083433166" duration="46000" />
+      <workItem from="1591083499541" duration="9000" />
+      <workItem from="1591083705815" duration="6000" />
+      <workItem from="1591084429732" duration="6986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2501" y="197" key="#PHP_CS_Fixer" timestamp="1591084683977">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2501" y="197" key="#PHP_CS_Fixer/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591084683977" />
+    <state x="2501" y="197" key="#PHP_CodeSniffer" timestamp="1591084726502">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2501" y="197" key="#PHP_CodeSniffer/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591084726502" />
+    <state x="2215" y="392" key="#SQL_Dialects" timestamp="1591085648286">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2215" y="392" key="#SQL_Dialects/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591085648286" />
+    <state x="2513" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591086219555">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2513" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591086219555" />
+    <state x="2701" y="282" key="FileChooserDialogImpl" timestamp="1591084713484">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2701" y="282" key="FileChooserDialogImpl/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591084713484" />
+    <state x="2526" y="267" key="SettingsEditor" timestamp="1591085948881">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2526" y="267" key="SettingsEditor/67.24.1853.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591085948881" />
+  </component>
+</project>

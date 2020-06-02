@@ -36,8 +36,11 @@
                 <td><?php echo $value['email']; ?></td>
                 <td><?php echo $value['phone_number']; ?></td>
                 <td><?php echo $value['address']; ?></td>
-                <td><?php echo $value['gender']; ?></td>
-                <td><?php echo $value['id']; ?></td>
+                <td><?php echo $value['gender'] == '1' ? 'Male' : 'Female'; ?></td>
+                <td>
+                    <button type="button">Sửa</button>
+                    <button type="button">Xóa</button>
+                </td>
             </tr>
             <?php  endforeach; ?>
         </table>
