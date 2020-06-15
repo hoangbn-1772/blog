@@ -1,12 +1,12 @@
 <?php
-    require '../controller/UserController.php';
+    require './/UserController.php';
     $users = getUsers();
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Add User</title>
+<title>User List</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/public/css/app.css">
@@ -36,8 +36,11 @@
                 <td><?php echo $value['email']; ?></td>
                 <td><?php echo $value['phone_number']; ?></td>
                 <td><?php echo $value['address']; ?></td>
-                <td><?php echo $value['gender']; ?></td>
-                <td><?php echo $value['id']; ?></td>
+                <td><?php echo $value['gender'] == '1' ? 'Male' : 'Female'; ?></td>
+                <td>
+                    <a type="button" href="/edit.php?id=<?php echo $value['id']; ?>">Sửa</a>
+                    <a type="button" href="/delete.php?id=<?php echo $value['id']; ?>">Xóa</a>
+                </td>
             </tr>
             <?php  endforeach; ?>
         </table>

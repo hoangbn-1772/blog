@@ -1,5 +1,3 @@
-<?php require '../controller/UserController.php'; ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,10 +13,10 @@
     <div class="content">
         <h3>Thêm người dùng</h3>
         <hr>
-        <form action="<?php store(); ?>" method="POST" enctype="multipart/form-data">
+        <form action="/UserController.php" method="POST" enctype="multipart/form-data">
             <div class="flex-content">
                 <div class="label-item">
-                    <label for="name">Họ và tên</label>
+                    <label for="fullname">Họ và tên</label>
                     <label for="email">Email</label>
                     <label for="birthday">Ngày sinh</label>
                     <label for="phone">Số điện thoại</label>
@@ -42,6 +40,7 @@
                 </div>
             </div>
             <br>
+            <input type="hidden" id="#" name="actionName" value="store">
             <input class="add" type="submit" value="Thêm">
         </form>
     </div>
