@@ -57,9 +57,10 @@ function getUsers()
     try {
         connectDatabase();
         global $conn;
-        $selectStmt = $conn->prepare('SELECT * FROM users');
+        $selectStmt = $conn->prepare('SELECT * FROM users WHERE `is_delete` = 0');
         $selectStmt->execute();
         $users = $selectStmt->fetchAll();
+        disconnectDatabase();
 
         return $users;
     } catch (PDOException $e) {
@@ -131,8 +132,31 @@ function editUserById()
                         `avatar` = :avatar
                     WHERE `id` = :id';
             $conn->prepare($sql)->execute($data);
+            disconnectDatabase();
         } catch (PDOException $e) {
             echo 'Edit user failed: '.$e->getMessage();
         }
+    }
+}
+
+/**
+ * Delete user.
+ */
+function delete($id = null)
+{
+    try {
+        connectDatabase();
+        global $conn;
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $data = [
+            ':is_delete' => 1,
+            ':id' => $id,
+        ];
+
+        $sql = 'UPDATE `users` SET `is_delete` = :is_delete WHERE `id` = :id';
+        $conn->prepare($sql)->execute($data);
+        disconnectDatabase();
+    } catch (PDOException $e) {
+        echo 'Delete user failed: '.$e->getMessage();
     }
 }
