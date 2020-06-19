@@ -4,7 +4,7 @@
 <title>Add User</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/public/css/app.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/app.css">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
     <div class="content">
         <h3>Thêm người dùng</h3>
         <hr>
-        <form action="/UserController.php" method="POST" enctype="multipart/form-data">
+        <form action="/index.php?controller=user&action=add" method="POST" enctype="multipart/form-data">
             <div class="flex-content">
                 <div class="label-item">
                     <label for="fullname">Họ và tên</label>
@@ -40,7 +40,6 @@
                 </div>
             </div>
             <br>
-            <input type="hidden" id="#" name="actionName" value="store">
             <input class="add" type="submit" value="Thêm">
         </form>
     </div>
